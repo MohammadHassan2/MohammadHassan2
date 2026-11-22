@@ -1,22 +1,25 @@
-### Mohammad Rabi ul Hassan
-BS Cybersecurity undergraduate (3rd Semester) focused on secure systems engineering, threat modeling, and embedded/IoT security. Actively exploring cybersecurity roles in high-performance engineering and Formula 1 / motorsport.
+# Mohammad Rabi ul Hassan
 
-**Focus Areas**
-- Application & API security (authentication design, cryptographic integrity, vulnerability assessment)
-- Network reconnaissance, lab automation, and embedded/IoT security
-- Threat modeling (STRIDE) and secure architecture review
+**BS Cybersecurity @ NUTECH** | Network Security · Zero-Trust Architecture · DevSecOps · Embedded/IoT Security  
+Focused on Blue Team defense, low-latency telemetry security, and high-reliability motorsport infrastructure.
 
-**Technical Stack**
-- **Languages:** Python, C, C++, Java, SQL, Bash
-- **Security & Systems:** Linux (Kali), Wireshark, Nmap, Burp Suite, Git, Docker
-- **Development:** React, Node.js, SQLite, Arduino / ESP32
-
-**Selected Projects**
-- **[SECURE-RF Gateway](https://secure-rf-website.vercel.app/)** — Cyber-physical RFID access control and anti-cloning prototype built with Arduino Uno, ESP32-CAM, MFRC522, and real-time alert webhooks.
-- **Event Gate Auth** — Web-based QR ticketing and entry authentication system using Python, SQLite, and HMAC-SHA256 cryptographic verification for ~400 attendees.
-
-**Experience**
-- **Cybersecurity Intern @ Bovine Sense** — STRIDE threat modeling and security architecture reviews for embedded IoT hardware and cloud data pipelines.
-
-**Links**
 [Portfolio](https://portfolio-eight-phi-29.vercel.app) · [LinkedIn](https://www.linkedin.com/in/mohammad-rabi-ul-hassan-67519b22b/)
+
+---
+
+## Featured Security Projects
+
+| Project | Domain | Key Controls & Stack |
+| :--- | :--- | :--- |
+| [**f1-telemetry-zero-trust-gateway**](https://github.com/MohammadHassan2/f1-telemetry-zero-trust-gateway) | Data-Plane & Crypto Security | 60Hz EA F1 25 UDP parsing, persistent mTLS 1.3 (`<5ms` P99 overhead), HMAC-SHA256 anti-replay, physics anomaly engine, SQLite WAL SIEM, FastAPI/WebSocket dashboard, 9-vector red-team CLI |
+| [**trackside-garage-infra-hardening**](https://github.com/MohammadHassan2/trackside-garage-infra-hardening) | Cloud & Network SecOps | 4-VLAN Terraform IaC segmentation, non-root read-only Alpine containers (`cap_drop: ALL`), Kubernetes `NetworkPolicy` & Restricted Pod Security, Wazuh XML & Splunk SPL rules, GitHub Actions CI (Trivy, Gitleaks, Bandit, Semgrep) |
+| [**SECURE-RF Gateway**](https://secure-rf-website.vercel.app/) | Embedded & IoT Security | Cyber-physical access control (Arduino Uno, ESP32-CAM, MFRC522 RFID, PIR) with encrypted sector auth, anti-cloning checks, live video stream, and webhook alerting |
+
+---
+
+## Security & Engineering Stack
+
+- **Defensive & SecOps:** Zero-Trust Architecture, mTLS 1.3, HMAC-SHA256, STRIDE Threat Modeling, Wazuh, Splunk SPL, Trivy, Gitleaks, Bandit, Semgrep
+- **Infrastructure & Cloud:** Terraform, Docker (Hardened Alpine), Kubernetes (`NetworkPolicy`, Pod Security Standards), GitHub Actions, Linux (Kali / Ubuntu)
+- **Languages & Frameworks:** Python, FastAPI, C/C++, Java, SQL (SQLite / SQL Server), PowerShell, Bash
+- **Hardware & IoT:** Arduino, ESP32 / ESP32-CAM, RFID/NFC Security
